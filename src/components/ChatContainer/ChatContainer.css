@@ -1,0 +1,12 @@
+.container
+{
+	position: relative;
+	
+	width: 960px;
+	
+	height:600px;
+	background-color: #b3b3b3;
+	
+	box-shadow: 0 1px 1px rgba(0,0,0,0.06), 0 2px 5px 0 rgba(0,0,0,0.06);
+	display: flex;
+}

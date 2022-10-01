@@ -1,0 +1,139 @@
+.modalBackground {
+    
+    
+    background-color:black;
+    
+    
+     z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+  }
+  
+
+  .modalWrapper{
+    background-color: whitesmoke;
+    align-items: center;
+    width: 20%;
+    height: 75vh;
+    border-radius: 12px;
+    position: fixed;
+    right: 225px;
+    padding: 15px;
+    z-index: 2;
+    /* margin: 0 1rem; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand {
+    /* background-color: black; */
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+  .brand.h2 {
+    font-weight: 900;
+    letter-spacing: 0.3vw;
+    
+  }
+
+  .brand.h2 span {
+    color:rgb(97, 219, 251);
+    font-weight: 900;
+  }
+
+
+  .modalContainer {
+   
+   
+    
+    
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 5px;
+    width: 75%;
+
+    
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center;
+     */
+    grid-template-rows: auto;
+
+    
+  }
+
+
+  .imgbx {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+ 
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  /* .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  /* .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  } */
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
+
+  .styledButton{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    width: 75%;
+    height: 10%;
+  }
+  

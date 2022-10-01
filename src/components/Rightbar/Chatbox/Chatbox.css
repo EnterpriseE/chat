@@ -1,0 +1,47 @@
+.chatBox {
+    position: relative;
+    width: 100%;
+    height: 495px;
+    /* padding: 50px; */
+    overflow-y: auto;
+  }
+
+  .my_message {
+    justify-content: flex-end;
+  }
+
+  .message {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 5px 0;
+    z-index: 1;
+  }
+
+  
+  .message p {
+    position: relative;
+    right: 0;
+    text-align: right;
+    max-width: 65%;
+    padding: 12px;
+    background: #dcf8c6;
+    border-radius: 10px;
+    font-size: 0.9;
+  }
+
+  .fred_message p {
+    background: #fff;
+    text-align: left;
+  }
+
+  /* video {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  } */
+

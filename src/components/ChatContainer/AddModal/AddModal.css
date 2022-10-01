@@ -1,0 +1,122 @@
+.outer{
+    width: 75vh;
+    height: 75vh;
+    border-radius: 12px;
+    background-color: ghostwhite;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /* z-index: 2; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* display: grid; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center;
+     */
+    /* grid-template-rows: auto; */
+
+
+    right: 425px;
+    padding: 25px;
+    z-index: 3;
+}
+
+
+
+.add_modalContainer {
+    
+
+    display: flex;
+  }
+
+.add_chatList{
+    /* flex: 1; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    width: 40%;
+    position: relative;
+    height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: whitesmoke;
+}
+
+.add_cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.add_block {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    /* height: 30%; */
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction:column; */
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    cursor: pointer;
+    
+}
+
+.add_block:hover{
+    background-color: gray
+        
+}
+
+.add_imgbx {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.add_right{
+    width:75%;
+	
+	height: 100%;
+    position: relative;
+    overflow: hidden;
+
+    border: solid;
+    border-color:grey;
+    border-width: 1px;
+}
+  
+.buttonLayout{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+.styledButton2{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    width: 40%;
+    /* height: 15%; */
+  }
+
+  .styledButton3{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    width: 40%;
+    /* height: 15%; */
+  }

@@ -1,0 +1,62 @@
+.chatbox_input {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: #ffffff34;
+    /* padding: 15px; */
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+  }
+
+  .chatbox_input form{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: 0 20px;
+    padding: 0.625rem 1.25rem;
+    border-radius: 30px;
+    font-size: 1em;
+  }
+
+
+  .chatbox_input input {
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    /* color: white; */
+    border: none;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    
+  } 
+
+
+  .chatbox_input input::selection {
+    background-color: #9a86f3;
+  }
+  .chatbox_input input:focus {
+    outline: none;
+  }
+
+
+  .chatbox_input button {
+    /* padding: 0.3rem 2rem; */
+    border-radius: 2rem;
+    height:70%;
+    width: 12%;
+
+    background-color: #dcf8c6;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: #9a86f3; */
+    border: none;
+
+    cursor: pointer;
+    
+  }
